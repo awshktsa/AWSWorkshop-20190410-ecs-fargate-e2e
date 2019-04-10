@@ -135,3 +135,7 @@ If you heard about ECS, the Elastic Container Service, then you might know that 
 - In the Network configuration part, please select the Application Load Balancer we created in Step.10
 - In the "Container to load balance", select correct port setting and target group we create in Step.9.
 - After all set, create your ECS services, and verify through ALB public address.
+
+### 13. Challenge
+What we have learned here, is to pack your current service from one single machine/EC2/VM onto ECS, and running in Fargate mode. You can see we might met the same situation about scaling, so, please try to update the autoscaling setting in your ECS service. After you setup it up, try with Loadtesting tools, like JMeters, Bee with machineguns, etc.
+
